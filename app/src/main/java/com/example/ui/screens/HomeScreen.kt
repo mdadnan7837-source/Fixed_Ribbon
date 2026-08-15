@@ -1653,7 +1653,7 @@ private fun WaterIntakeSection(
             // Add Water Button
             Surface(
                 onClick = if (isCancerAware) {
-                    { onOpenAddWaterSheet?.invoke() }
+                    { onOpenAddWaterSheet?.invoke(); Unit }
                 } else {
                     onAddWater
                 },
