@@ -1,0 +1,6 @@
+{
+  "name": "AI Nutrition Coach",
+  "description": "AI Nutrition Coach Android application foundation with MVVM architecture, repository pattern, and Navigation Compose.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
